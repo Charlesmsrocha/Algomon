@@ -4,6 +4,7 @@ package algomon;
  *
  * @author Charles Rocha
  */
-public class IntimidatePassiveAbility {
+public class RaiseAttackAbility {
+    //Raise Attack by 25%
     
 }
