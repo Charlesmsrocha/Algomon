@@ -6,5 +6,7 @@ package algomon;
  */
 public class PassivePreventReaction {
         //This algomon negates the use of the opponent reaction
+
+
     
 }

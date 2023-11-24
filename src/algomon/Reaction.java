@@ -4,6 +4,10 @@ package algomon;
  * 
  * @author Charles Rocha
  */
-public class Reaction extends Actions{
+public class Reaction {
     //"Action" that can be used after an action
+
+    public void useReaction (){
+        
+    }
 }

@@ -4,7 +4,7 @@ package algomon;
  * 
  * @author Charles Rocha
  */
-public class PassivePreventBonusaction extends Algomon{
+public class PassivePreventBonusaction {
     //This algomon negates the use of the opponent bonus action
     
 }
