@@ -5,8 +5,7 @@ package algomon;
  * @author Charles Rocha
  */
 
-
-public class Algomon {
+public abstract class Algomon {
 
     /*
      * An Algomon has:
@@ -18,7 +17,7 @@ public class Algomon {
      * Action ability;
      * Bonus Action;
      * Reaction.
-    *
+     *
      * An Algomon can:
      * Attack; 
      * use Ability; 
@@ -26,14 +25,14 @@ public class Algomon {
      * use Reaction. 
      */
 
-    String name;
-    String type; //Later change it to enum, maybe
-    private int HP;
+    public String name;
+    public AlgomonType type; //Later change it to enum, maybe
+    public int HP;
     private int attackPower;
     private int defense;
     
     //Constructor to initialize the Algomon status
-    public Algomon(String name, String type, int HP, int attackPower, int defense ){
+    public Algomon(String name, AlgomonType type, int HP, int attackPower, int defense ){
         this.name = name;
         this.type = type;
         this.HP = HP;
@@ -48,10 +47,10 @@ public class Algomon {
         this.name = name;
     }
 
-    public String getType() {
+    public AlgomonType getType() {
         return type;
     }
-    public void setType(String type) {
+    public void setType(AlgomonType type) {
         this.type = type;
     }
 
@@ -72,8 +71,8 @@ public class Algomon {
     public int getDefense() {
         return defense;
     }
-    public void setDefense(int defense) {
-        this.defense = defense;
+    public void setDefense(int newDefense) {
+        this.defense = newDefense;
     }
     
 }

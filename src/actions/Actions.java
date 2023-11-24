@@ -1,11 +1,11 @@
-package algomon;
+package actions;
 
 /**
  *
  * @author Charles Rocha
  */
 public class Actions {
-    //Algomon can choose among attack, bonus action, reaction, use ability
+    //Algomon can choose among attack, bonus action, reaction and use abilities
     
     public static void attackOpponent(){
         System.out.println("This must deal damage to the opponent. Use this or ability.");

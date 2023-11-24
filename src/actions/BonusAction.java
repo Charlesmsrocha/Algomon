@@ -1,4 +1,4 @@
-package algomon;
+package actions;
 
 /**
  * 
